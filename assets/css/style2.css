@@ -6,6 +6,12 @@
     text-decoration: none;
 }
 
+hr {
+    height: 2px;
+    background-color: #dddddd;
+    color: #dddddd;
+    }
+
 html {
     height: 100%;
 }
