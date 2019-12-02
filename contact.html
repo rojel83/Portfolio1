@@ -2,45 +2,51 @@
 
      <html lang="en-us">
 
-            <head>
-                 <meta charset="UTF-8">
-                     <link rel="stylesheet" href="">
-                        <title></title>
-            </head>
+                  <head>
+                      <meta charset="UTF-8">
+                      <link rel="stylesheet" href="../Portofolio1/assets/css/style2.css">
+                      <title>Contact.html</title>
+                  </head>
 
         <body>
-                      <h2>Rojel Perez Vez</h2>
-    
-                      <div>
+            <div class="main">
+                    <div class="header">
+                        <div class="inner-header"><h2 class="name">Rojel Perez Vez</h2></div>
+                           <ul class="navigation">            
+                               <li><a href="index.html">About</a></li>
+                               <li><a href="contact.html">Contact</a></li>
+                               <li><a href="portofolio.html">Portfolio</a></li>
+                           </ul>
+                    </div>
+                                                                        
+                                                                           <br>
+                        <div class="box">
+                                <div class="contact-title"><h2>Contact</h2></div>
+                                                                           <br>
+                                                                           <hr>
+                                        <div class="contact-form">
+                                                                           <br>
 
-                          <a href="index.html">About</a>
-                          <a href="contact.html">Contact</a>
-                          <a href="portofolio.html">Portfolio</a>
-             
-                      </div>
-                <hr>
-              <br>
-                <div class="contaat-title">
-                    <h2>Contact</h2>
-                </div>
-                <hr>
-                <div class="contact-form">
+                                            <form id="contact-form" method="post" action="contact.html">
+                                                                           <br>
+                                             <P>Name</P>
+                                                                           <br>
+                                                  <input name="name" type="text" class="form-control" placeholder="Your Name" required>
+                                                                           <br>
+                                             <p>Email</p>
+                                                  <input name="email" type="email" class="form-control" placeholder="Your Email" required>
+                                                                           <br>
+                                             <P>Message</P>
+                                                      <textarea name="message" class="form-control"  placeholder="Message" rows="10" ></textarea>
+                                                                           <br>
 
-                <form id="contact-form" method="post" action="">
-                    <P>Name</P>
-                    <input name="name" type="text" class="form-control" placeholder="Your Name" required><br>
-                    <p>Email</p>
-                    <input name="email" type="email" class="form-control" placeholder="Your Email" required><br>
-                    <P>Message</P>
-                    <textarea name="message" class="form-control" placeholder="Message" rows="10"></textarea><br>
+                                                  <input type="submit" class="form-control-summit" value="SEND MESSAGE">
+                                            </form>
 
-                    <input type="submit" class="form-control-summit" value="SEND MESSAGE">
-                </form>
-
-
-                </div>
-            </head>
-
+                                        </div>
+                         </div>
+            </div>
+                <div class="line"><hr></div>
+                <footer><p class="footer-text">copyright</p></footer>
         </body>
-
      </html>
