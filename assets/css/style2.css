@@ -6,11 +6,6 @@
     text-decoration: none;
 }
 
-hr {
-    height: 2px;
-    background-color: #dddddd;
-    color: #dddddd;
-    }
 
 html {
     height: 100%;
@@ -25,7 +20,7 @@ body {
 }   
 
 .about-me {
-   color: teal;
+   color: #4aaaa5;
    padding-left: 0px;
    padding-top: 0px;
 }
@@ -53,12 +48,22 @@ body {
     padding-right: 25px;
     color: #ffffff;
     float: left;
-    background-color: teal;
+    background-color: #4aaaa5;
     margin-left: 410px;
     margin-top: 5px;
 }
 
-ul {
+.contact-title {
+    color: #4aaaa5;
+}
+
+hr {
+    border: #dddddd;
+    height: 3px;
+    background-color:#dddddd;
+}
+
+.navigation {
     float: right;
     margin-top: 30px;
 }
@@ -83,7 +88,7 @@ ul {
 }
 
 .box {
-    border: 2px solid #dddddd;
+    border: 1px solid #dddddd;
     width: 600px;
     background-color: #ffffff;
     margin: 0 auto;
@@ -92,9 +97,31 @@ ul {
     padding-right: 50px;
     padding-left: 50px;
     margin-top: 40px;
+    color: #777777;
 }
 
+input, .msg .area {
+    color: #cccccc;
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+    margin-bottom: 25px;
+}
 
+.msg .area {
+    height: 100px;
+
+}
+
+.btn {
+    width: 100px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    height: 30px;
+    text-align: center;
+    padding-top: 10px;
+    cursor: pointer;
+}
 
 footer {
     border-top: 8px solid #4aaaa5;

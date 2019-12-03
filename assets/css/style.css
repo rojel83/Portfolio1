@@ -16,14 +16,14 @@ body {
     flex-direction: column;
     }
 
-    hr {
-    height: 2px;
-    background-color: #dddddd;
-    color: #dddddd;
-    }
+hr {
+    border: #dddddd;
+    height: 3px;
+    background-color:#dddddd;
+}
 
 .about-me {
-   color: teal;
+   color: #4aaaa5;
    padding-left: 0px;
    padding-top: 0px;
 }
@@ -50,7 +50,7 @@ body {
     padding-right: 25px;
     color: #ffffff;
     float: left;
-    background-color: teal;
+    background-color: #4aaaa5;
     margin-left: 230px;
     margin-top: 5px;
 }
@@ -81,7 +81,7 @@ ul {
 }
 
 .box {
-    border: 2px solid #dddddd;
+    border: 1px solid #dddddd;
     width: 960px;
     background-color: #ffffff;
     margin: 0 auto;
@@ -106,7 +106,7 @@ html {
 
 
 footer {
-    border-top: 8px solid teal ;
+    border-top: 8px solid #4aaaa5;
     background: #666666;
     color: #cccccc;
     padding: 2em;
