@@ -19,10 +19,11 @@ body {
     flex-direction: column;
 }   
 
-.about-me {
+.contact-title {
    color: #4aaaa5;
    padding-left: 0px;
    padding-top: 0px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .main {
@@ -51,6 +52,7 @@ body {
     background-color: #4aaaa5;
     margin-left: 410px;
     margin-top: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .contact-title {
@@ -77,14 +79,13 @@ hr {
     display: table;
     float: left;
     padding: 0px 20px;
+    color: #777777;
 }
 
 .navigation li {
     display: table-cell;
     vertical-align: middle;
     height: 100%;
-    color: #777777;
-    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .box {

@@ -14,7 +14,7 @@ body {
     min-height: 100%;
     display: flex;
     flex-direction: column;
-    }
+}
 
 hr {
     border: #dddddd;
@@ -26,13 +26,14 @@ hr {
    color: #4aaaa5;
    padding-left: 0px;
    padding-top: 0px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .main {
    background-image: url(../images/criss-cross.png);
    height: 1000px;
    overflow: auto;
-   }
+}
 
 .header {
     border-bottom: 3px solid #dddddd;
@@ -53,19 +54,17 @@ hr {
     background-color: #4aaaa5;
     margin-left: 230px;
     margin-top: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-ul {
+
+ul, li {
     float: right;
-    margin-top: 30px;
-}
+    margin-top: 15px;
+    color: #777777; 
+}  
 
-.navigation  li { 
-    display: inline-block;
-}
-    
 .navigation li {
-    
     height: 100%;
     display: table;
     float: left;
@@ -76,8 +75,6 @@ ul {
     display: table-cell;
     vertical-align: middle;
     height: 100%;
-    color: #777777;
-    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .box {
