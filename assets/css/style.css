@@ -109,7 +109,9 @@ footer {
     border-top: 8px solid #4aaaa5;
     background: #666666;
     color: #cccccc;
-    padding: 2em;
     margin-top: auto;
     text-align: center;
+    position: sticky;
+    bottom: 0%;
+    height: 50px;
 }

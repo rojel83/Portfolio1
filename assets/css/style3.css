@@ -97,8 +97,9 @@ footer {
     clear: both;
     border-top: 8px solid #4aaaa5;
     background: #666666;
-    padding: 3em;
     text-align: center;
     color: #cccccc;
-    
+    position: sticky;
+    bottom: 0%;
+    height: 50px;
 }
