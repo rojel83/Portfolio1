@@ -1,4 +1,4 @@
-/* it work!*/
+/*portofolio.html-Page*/
 * {
     margin: 0;
     padding: 0;
@@ -44,24 +44,33 @@ body {
     height: 80px;
     display: block;
     background-color: #ffffff;
+    margin-bottom: 0%;
 }
 
 .inner-header {
-    padding-top: 24px;
-    padding-bottom: 24px;
+    padding-top: 26px;
+    padding-bottom: 26px;
     padding-left: 25px;
     padding-right: 25px;
     color: #ffffff;
     float: left;
     background-color: #4aaaa5;
     margin-left: 410px;
-    margin-top: 5px;
+    margin-top: 0px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 ul, li {
     float: right;
     margin-top: 15px;
+    color: #777777;
+}
+
+.lighter {
+    color: #dddddd;
+}
+
+a {
     color: #777777;
 }
     
