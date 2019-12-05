@@ -100,7 +100,7 @@ a {
 }
 .inner-box {
     width: 580px;
-    height: 80%;
+    height: 90%;
 }
 
 #boxes {
@@ -111,8 +111,14 @@ a {
 }
 
 .overlay {
+    padding-top: 10px;
     width: 150px;
     height: 30px;
+    position: relative;
+    bottom: 60px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
 }
 
 .silly-imgs {
