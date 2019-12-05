@@ -109,11 +109,34 @@ a {
     float: left;
 }
 
+.silly-imgsoverlay {
+    width: 150px;
+    height: 30px;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    position: relative;
+    bottom: 60px;
+    left: 190px;
+    padding-top: 14px;
+    text-align: center;
+}
+
 .snow {
     clear: both;
     width: 150px;
     height: 225px;
     padding-right: 40px;
+}
+.snowoverlay {
+    width: 150px;
+    height: 30px;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    position: relative;
+    bottom: 60px;
+    left: 190px;
+    padding-top: 14px;
+    text-align: center;
 }
 
 .work {
