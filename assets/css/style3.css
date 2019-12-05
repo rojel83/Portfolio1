@@ -60,7 +60,7 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-ul, li {
+ ul, li{
     float: right;
     margin-top: 15px;
     color: #777777;
@@ -74,14 +74,14 @@ a {
     color: #777777;
 }
     
-.navigation li {
+ .navigation li {
     height: 100%;
     display: table;
     float: left;
     padding: 0px 20px;
 }
 
-.navigation li {
+ .navigation li{
     display: table-cell;
     vertical-align: middle;
     height: 100%;
@@ -92,11 +92,46 @@ a {
     width: 600px;
     background-color: #ffffff;
     margin: 0 auto;
-    height: 70%;
+    height: 80%;
     padding-top: 30px;
     padding-right: 50px;
     padding-left: 50px;
     margin-top: 40px;
+}
+
+
+
+
+.silly-imgs {
+    width: 150px;
+    height: 225px;
+    padding-right: 40px;
+    float: left;
+}
+
+.snow {
+    clear: both;
+    width: 150px;
+    height: 225px;
+    padding-right: 40px;
+}
+
+.work {
+    float: left;
+    width: 150px;
+    height: 225px;
+    padding-right: 40px;
+}
+
+.party {
+    width: 150px;
+    height: 225px;
+    padding-right: 40px;
+}
+
+.soccer {
+    width: 200px;
+    height: 200px;
 }
 
 footer {
