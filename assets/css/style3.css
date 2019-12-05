@@ -98,58 +98,42 @@ a {
     padding-left: 50px;
     margin-top: 40px;
 }
+.inner-box {
+    width: 580px;
+    height: 80%;
+}
 
-
-
+#boxes {
+    padding: 35px;
+    float: left;
+    width: 150px;
+    height: 225px;
+}
 
 .silly-imgs {
     width: 150px;
-    height: 225px;
-    padding-right: 40px;
-    float: left;
+    height: 225px; 
 }
 
 .silly-imgsoverlay {
     width: 150px;
-    height: 30px;
-    color: #ffffff;
-    background-color: #4aaaa5;
-    position: relative;
-    bottom: 60px;
-    left: 190px;
-    padding-top: 14px;
-    text-align: center;
+    height: 225px;
 }
 
 .snow {
-    clear: both;
     width: 150px;
     height: 225px;
-    padding-right: 40px;
 }
-.snowoverlay {
-    width: 150px;
-    height: 30px;
-    color: #ffffff;
-    background-color: #4aaaa5;
-    position: relative;
-    bottom: 60px;
-    left: 190px;
-    padding-top: 14px;
-    text-align: center;
-}
+
 
 .work {
-    float: left;
     width: 150px;
     height: 225px;
-    padding-right: 40px;
 }
 
-.party {
+.oscars {
     width: 150px;
     height: 225px;
-    padding-right: 40px;
 }
 
 .soccer {
