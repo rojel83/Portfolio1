@@ -110,14 +110,14 @@ a {
     height: 225px;
 }
 
+.overlay {
+    width: 150px;
+    height: 30px;
+}
+
 .silly-imgs {
     width: 150px;
     height: 225px; 
-}
-
-.silly-imgsoverlay {
-    width: 150px;
-    height: 225px;
 }
 
 .snow {
